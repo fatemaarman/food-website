@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family:'Poppins', sans-serif;
+}
+
+.flex-box{
+    display: flex;
+   
+}
+
+
+.half-block{
+    
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    color:darkslategrey;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+span{
+    color: darkorange;
+}
+p{
+    color: grey;
+    margin-bottom: 15px;
+}
+img{
+    width: 90%;
+}
+.cta-btn{
+    padding: 10px 30px;
+    background-image:linear-gradient(red, orange);
+    padding-bottom: 12px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 25px;
+    text-transform: capitalize;
+    color: white;
+    
+}
+.about{
+    padding: 0 90px;
+    padding-left: 80px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    background-image: url(../img/7.png);
+    background-repeat: no-repeat;
+}
+.about img{
+    width: 60%;
+}
+.about h1{
+
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20%;
+}
+.about p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7rem;
+    margin-bottom: 16px;
+}
+.wrapper{
+
+    width: 100%;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.all-card{
+    text-align: center;
+    
+   
+
+}
+.product-card{
+    width: 150px;
+   border: 2px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.title-recipies{
+    text-align: center;
+    
+}
+.three-flex{
+    flex: 33.3333%;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+.product-card img{
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: 10px;
+    
+    
+}
+.product-card h1{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+    padding: 0;
+}
+.product-card p{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10px;
+    
+}
+.last-section{
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+}
+.another-card{
+    text-align: center;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+   
+}
+footer{
+    background-color: darkslategray;
+    
+}
+footer h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 50px;
+}
